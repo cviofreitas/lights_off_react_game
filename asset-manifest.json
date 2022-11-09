@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lights_off_react_game/static/css/main.ae1b13b5.css",
+    "main.js": "/lights_off_react_game/static/js/main.5206455d.js",
+    "index.html": "/lights_off_react_game/index.html",
+    "main.ae1b13b5.css.map": "/lights_off_react_game/static/css/main.ae1b13b5.css.map",
+    "main.5206455d.js.map": "/lights_off_react_game/static/js/main.5206455d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae1b13b5.css",
+    "static/js/main.5206455d.js"
+  ]
+}
