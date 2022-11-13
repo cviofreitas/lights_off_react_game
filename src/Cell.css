@@ -1,0 +1,39 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 225, 0);
+  cursor: pointer;
+  margin: 10px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+@keyframes changeBlue {
+  from {
+    transform: scale(.8);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes changeYellow {
+  from {
+    transform: scale(.8);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.Cell-lit {
+  animation: changeBlue 1s;
+  background-color: rgb(9, 135, 244);
+}
+
+.Cell-off {
+  animation: changeYellow 1s;
+  background-color: rgb(255, 234, 0);
+}

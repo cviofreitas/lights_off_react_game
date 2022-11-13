@@ -1,0 +1,15 @@
+.restartButton {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(9, 135, 244);
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.clicked {
+    transform: scale(.98);
+}

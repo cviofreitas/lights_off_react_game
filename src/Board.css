@@ -1,0 +1,30 @@
+.Board {
+  margin: 0 auto;
+}
+
+.gameBoardContainer {
+  position: relative;
+  top: 2vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winnerNotification {
+
+  background: linear-gradient(rgb(255, 204, 0), yellow);
+  border-radius: 5px;
+  padding: 20px;
+  color: rgb(9, 117, 219);
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+
+}
